@@ -44,10 +44,10 @@ export const personalDetails = {
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  linkdein: "https://www.linkedin.com/in/pavlo-naradovy-6926811b1/",
+  github: "https://github.com/pavelnaradovy",
+  // twitter: "https://twitter.com/",
+  // instagram: "https://www.instagram.com/",
 };
 
 // Enter your Work Experience here
@@ -115,26 +115,17 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Vinovest",
-    image: projectImage1,
-    description: `Have you ever made any investments? And in what? We all got used to the idea to invest our financial resources in bank deposits, stocks, bonds, precious metals, residential and commercial properties. But can you imagine to invest money in wine?`,
-    techstack: "HTML/SASS, JavaScript, React, MobX",
-    previewLink: "https://www.vinovest.co/",
+    title: "Kidas Dashboard",
+    image: projectImage6,
+    description: `React dashboard inside WordPress.`,
+    techstack: "HTML/CSS, JavaScript, React , SCSS",
+    previewLink: "https://getkidas.com/",
     // githubLink: "https://github.com",
   },
   {
-    title: "Unifai",
-    image: projectImage2,
-    description: `Messaging applications are very convenient, practical, and ideal for internal corporate correspondence. They are the perfect way to bring all team together, and have become one of the most popular media in recent years. Due to their high popularity, many companies and organizations are starting to develop and invest in messaging apps. These are computer programs that people interact with through voice, text or video calls.`,
-    techstack: "HTML/SASS, JavaScript, React, Redux-Thunk",
-    previewLink: "https://app.unifai.us",
-    // githubLink: "https://github.com",
-  },
-  {
-    title: "StoryLine",
-    image: projectImage3,
-    description: `Create an event and share it with your friends and family
-    What is an event? Let’s say you had a birthday - this is an event, and you invited friends to it, and after a fun event, there are a lot of memories in a photo and video format. Storyline helps users share media memories in events by posting photos and videos of each other, as well as commenting them.`,
+    title: "Medialove",
+    image: projectImage5,
+    description: `Project based system which allows subscribers to store, review, organize media content. Creating decks from media content. Share files, projects, decks, castings, locations`,
     techstack: "HTML/CSS, JavaScript, React, Redux-Saga",
     // previewLink: "https://google.com",
     // githubLink: "https://github.com",
@@ -148,19 +139,29 @@ export const projectDetails = [
     // githubLink: "https://github.com",
   },
   {
-    title: "Medialove",
-    image: projectImage5,
-    description: `Project based system which allows subscribers to store, review, organize media content. Creating decks from media content. Share files, projects, decks, castings, locations`,
+    title: "StoryLine",
+    image: projectImage3,
+    description: `Create an event and share it with your friends and family
+    What is an event? Let’s say you had a birthday - this is an event, and you invited friends to it, and after a fun event, there are a lot of memories in a photo and video format. Storyline helps users share media memories in events by posting photos and videos of each other, as well as commenting them.`,
     techstack: "HTML/CSS, JavaScript, React, Redux-Saga",
     // previewLink: "https://google.com",
     // githubLink: "https://github.com",
   },
   {
-    title: "Kidas Dashboard",
-    image: projectImage6,
-    description: `React dashboard inside WordPress.`,
-    techstack: "HTML/CSS, JavaScript, React , SCSS",
-    previewLink: "https://getkidas.com/",
+    title: "Unifai",
+    image: projectImage2,
+    description: `Messaging applications are very convenient, practical, and ideal for internal corporate correspondence. They are the perfect way to bring all team together, and have become one of the most popular media in recent years. Due to their high popularity, many companies and organizations are starting to develop and invest in messaging apps. These are computer programs that people interact with through voice, text or video calls.`,
+    techstack: "HTML/SASS, JavaScript, React, Redux-Thunk",
+    previewLink: "https://app.unifai.us",
+    // githubLink: "https://github.com",
+  },
+
+  {
+    title: "Vinovest",
+    image: projectImage1,
+    description: `Have you ever made any investments? And in what? We all got used to the idea to invest our financial resources in bank deposits, stocks, bonds, precious metals, residential and commercial properties. But can you imagine to invest money in wine?`,
+    techstack: "HTML/SASS, JavaScript, React, MobX",
+    previewLink: "https://www.vinovest.co/",
     // githubLink: "https://github.com",
   },
 ];
