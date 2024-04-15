@@ -25,7 +25,7 @@ import projectImage1 from "./assets/projects/project1.png";
 import projectImage2 from "./assets/projects/project2.png";
 import projectImage3 from "./assets/projects/project3.png";
 import projectImage4 from "./assets/projects/project4.png";
-import projectImage5 from "./assets/projects/project5.jpg";
+import projectImage5 from "./assets/projects/project5.png";
 import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
@@ -142,14 +142,13 @@ export const projectDetails = [
   {
     title: "Office exchange",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Booking - appartment, office, co-working`,
+    techstack: "HTML/CSS, JavaScript, React, Redux-Saga",
+    // previewLink: "https://google.com",
+    // githubLink: "https://github.com",
   },
   {
-    title: "Project title 5",
+    title: "Medialove",
     image: projectImage5,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
