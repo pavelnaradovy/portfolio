@@ -9,7 +9,7 @@ function Technologies() {
     react,
     redux,
     tailwind,
-    bootstrap,
+    saga,
     sass,
     vscode,
     git,
@@ -17,6 +17,7 @@ function Technologies() {
     npm,
     postman,
     figma,
+    thunk,
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
@@ -35,8 +36,9 @@ function Technologies() {
         <img src={react} title="React" alt="" />
         <img src={redux} title="Redux" alt="" />
         <img src={tailwind} title="Tailwind CSS" alt="" />
-        <img src={bootstrap} title="Bootstrap" alt="" />
+        <img src={saga} title="Saga" alt="" />
         <img src={sass} title="SASS" alt="" />
+        <img src={thunk} title="Thunk" alt="Thunk" />
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
