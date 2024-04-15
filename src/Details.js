@@ -26,7 +26,7 @@ import projectImage2 from "./assets/projects/project2.png";
 import projectImage3 from "./assets/projects/project3.png";
 import projectImage4 from "./assets/projects/project4.png";
 import projectImage5 from "./assets/projects/project5.png";
-import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage6 from "./assets/projects/project6.png";
 
 // Logos
 export const logos = {
@@ -150,20 +150,18 @@ export const projectDetails = [
   {
     title: "Medialove",
     image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Project based system which allows subscribers to store, review, organize media content. Creating decks from media content. Share files, projects, decks, castings, locations`,
+    techstack: "HTML/CSS, JavaScript, React, Redux-Saga",
+    // previewLink: "https://google.com",
+    // githubLink: "https://github.com",
   },
   {
-    title: "Project title 6",
+    title: "Kidas Dashboard",
     image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `React dashboard inside WordPress.`,
+    techstack: "HTML/CSS, JavaScript, React , SCSS",
+    previewLink: "https://getkidas.com/",
+    // githubLink: "https://github.com",
   },
 ];
 
